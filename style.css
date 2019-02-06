@@ -1,0 +1,121 @@
+body {
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #47353A;
+}
+header {
+  padding: 10px 15px;
+  /* when we flost elementds inside of our header, they are taken outside the 			regular box gloh of the page, so we can use overflow hidden as a trick to get it working*/
+  overflow: hidden;
+}
+header h1 {
+  float: left;
+}
+header nav {
+  float:  right;
+  /* check the difference between logo size and nav size, = 3 */
+  margin-top: 3px;
+}
+header nav a {
+  color: #47353A; ;
+  text-decoration: none;
+  margin-left: 12px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.hero{
+  background-image: url(hero.jpg);
+  background-size: cover;
+  padding-top: 230px;
+  padding-bottom: 200px;
+  background-position: right center;
+}
+.hero div {
+  max-width: 540px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+}
+.hero h2 {
+  font-family: David Libre;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 1.1;
+  margin-bottom: 20px;
+}
+.hero p {
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.flowers{
+  overflow: hidden;
+}
+.flowers img{
+  float: left;
+  width: 33.333%;
+}
+.quotes {
+  overflow: hidden;
+}
+.quotes div{
+  width: 50%;
+  float: left;
+  text-align: center;
+  padding: 50px 20px 40px 20px;
+}
+.quotes img {
+  width: 75px;
+  border-radius: 100%;
+}
+.cream-background {
+  background-color: #F7F1EE;
+}
+.quotes blockquote {
+  font-family: David Libre;
+  font-size: 24px;
+	font-weight: 700;
+  line height: 1.15;
+  max-width: 400px;
+  margin: 15px auto 5px auto;
+}
+.chair{
+  background-image: url(full-bleed.jpg);
+  background-position: center bottom;
+  padding: 0;
+  height: 500px;
+}
+.logos {
+  background-color: #EEAE9F;
+  padding: 20px 20px 35px 20px;
+  text-align: center;
+}
+.logos p {
+  color: white;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.logos img {
+  margin-left: 22px;
+  margin-right: 22px;
+}
+footer {
+  background-color: #47353A ;
+  padding: 25px 30px;
+  overflow: hidden;
+}
+footer img {
+  float: left;
+}
+footer p {
+  float: right;
+  font-size: 14px;
+  color: #CCC9CA;
+  font-weight: 700;
+}
+
+
+
